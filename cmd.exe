@@ -1,0 +1,9 @@
+:: 1. Create the virtual environment
+python -m venv envburkin
+
+:: 2. Activate the virtual environment
+.\envburkin\Scripts\Activate.ps1
+
+:: 3. Run requirements.txt
+pip install -r requirements.txt
+
